@@ -1,0 +1,26 @@
+•	Provide a screenshot of invoking the figlet function
+	Image: 1, Page: 1, file: HW2 Images.pdf
+
+•	Complete slack-request/handler.py
+	Code is present at slack-request/handler.py
+
+•	Complete slack-interactive/handler.py
+	Code is present at slack-interactive/handler.py
+
+•	Provide a screenshot of running the following command
+	sudo journalctl -u faasd --lines 40
+	Image: 2, Page: 2, file: HW2 Images.pdf
+
+•	Provide a screenshot of your OpenFaaS gateway AFTER deploying figlet, slack-handler and slack-interactive functions
+	o	figlet
+		Image: 3, Page: 3, file: HW2 Images.pdf
+	o	slack-request
+		Image: 4, Page: 3, file: HW2 Images.pdf
+	o	slack-interactive
+		Image: 5, Page: 4, file: HW2 Images.pdf
+
+•	Provide a screenshot of invoking slack-request and slack-interactive functions
+	o	slack-request
+		Image: 7, Page: 4, file: HW2 Images.pdf
+	o	slack-interactive
+		Image: 6, Page: 4, file: HW2 Images.pdf
