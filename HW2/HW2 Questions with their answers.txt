@@ -1,0 +1,22 @@
+•	What is the command to invoke the slack-request function
+	o	Via curl: curl -d {"Hello":"Cloud"} http://127.0.0.1:8080/function/slack-request
+	o	Via faas-cli: sudo faas-cli invoke slack-request
+
+•	What is the output you see when you invoke the slack-request function?
+	Image - 7, Page: 5, file: HW2 Images.pdf
+
+•	What is the command to invoke the slack-interactive function
+	o	Via curl: curl -d {"Hello":"Cloud"} http://127.0.0.1:8080/function/slack-interactive
+	o	Via faas-cli: sudo faas-cli invoke slack-interactive along with a json object ({"Hello":"Cloud"})
+
+•	What is the output you see when you invoke the slack-interactive function?
+	Image - 6, Page:5, file: HW2 Images.pdf
+
+•	How would you pass different arguments to the functions?
+	We can pass either a plain-text file or a JSON object to the arguments of the functions. By making changes in the json file, we can alter the request and based on the request given to the function, we can make
+	changes in the handler file to process either a text or a json request.
+
+•	How would you change the slack-interactive function to react to different inputs?
+	Slack-interactive function utilizes handler.py file to accept the request in the text or json format. We can use different slack objects like check boxes, buttons, links etc., to create various interactive objects
+	in the slack bot responses to react to different kinds of input.
+	
